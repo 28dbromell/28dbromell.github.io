@@ -4,27 +4,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Boxes in Boxes</title>
     <style>
-        #title {border-width: 20px 1000px 20px 1000px}
-        #title {border-color: #000000 ;}
-        #title {color: darkblue;}
-        #paragraph {
-            color: rgb(255, 0, 0)
+        #content {
+            margin: auto;
+            width: 80%;
+        }
+
+        h1 {
+            background-color: #CC0099;
+            text-align: center;
+            color: #FFF;
+        }
+
+        .blogpost {
+            background-color: #FF99CC;
+            overflow: auto;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .blogpost img {
+            width: 20%;
+            float: left;
+            margin: 0px 10px 10px 0px;
+        }
+
+        .blogpost h1 {
+            background-color: inherit;
+            font-size: 1.5em;
+        }
+
+        .blogpost p {
+            text-align: justify;
         }
     </style>
 </head>
 
 <body>
-    <H1 id="title"> About Me </H1>
-    <H3>My name is Davonte' Allen Bromell or Von. </H3>
-    <H2 id="paragraph">I'm born and raised in Baltimore, Maryland and have 5 siblings.
-        I have 2 sisters and 3 brothers, I also have two step sisters and a step brother.</H2>
-    <a href="https://docs.google.com/presentation/d/1TSwUKGWimF8v7JX33BYfDwW6a4lWyA8M38rjqq5vZNA/edit#slide=id.p"
-        target="_blank">Click for Family tree</a>
-    <H2 id="paragraph">Some of my favorite stuff are ANYTHING THAT IS ADORABLE IDC HOW GIRLY</H2>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Hydrochoeris_hydrochaeris_in_Brazil_in_Petr%C3%B3polis%2C_Rio_de_Janeiro%2C_Brazil_09.jpg/640px-Hydrochoeris_hydrochaeris_in_Brazil_in_Petr%C3%B3polis%2C_Rio_de_Janeiro%2C_Brazil_09.jpg">
-    <H2 id="paragraph">My favorite animal is the Capybara</H2>
-    </body>
+    <div id="content">
+        <h1 id="banner">Boxes-In-Boxes</h1>
+        <div class="blogpost">
+            <h1>Post Title</h1>
+            <img src="https://m.media-amazon.com/images/I/61wNAGbm-mL._AC_UF894,1000_QL80_.jpg" alt="Coming soon... ">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet, ex nec aliquam egestas, leo
+                sapien efficitur lectus, quis consectetur lacus est sed urna. Phasellus at ullamcorper est, non gravida
+                eros. Nunc porttitor, enim ut sodales luctus, sapien est ultrices urna, et maximus dolor sem sit amet
+                est. Cras eget accumsan eros, quis lobortis orci. Ut varius nisi a enim congue, non venenatis elit
+                convallis. Donec elementum felis eros, ut scelerisque ante tincidunt nec. Etiam quis elementum massa.
+            </p>
+            <p>In hac habitasse platea dictumst. Suspendisse potenti. Phasellus nec libero eget magna eleifend euismod.
+                Duis pellentesque et velit a finibus. Pellentesque quis mollis magna. In urna nunc, blandit vitae justo
+                sit amet, auctor posuere risus. Phasellus sed velit a turpis scelerisque commodo. Cras congue ex sit
+                amet ligula malesuada, lobortis luctus augue venenatis. Integer vitae arcu purus. In rhoncus tincidunt
+                semper. Mauris efficitur consequat purus, non egestas lorem dignissim non. Sed viverra nunc augue. Sed
+                non ultrices metus. Aenean diam ante, accumsan quis diam sed, pulvinar laoreet odio.</p></div>
+            <div class="blogpost">
+                <h1>Post Title</h1>
+                <img src="https://m.media-amazon.com/images/I/61wNAGbm-mL._AC_UF894,1000_QL80_.jpg"
+                    alt="Coming soon... ">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet, ex nec aliquam egestas, leo
+                    sapien efficitur lectus, quis consectetur lacus est sed urna. Phasellus at ullamcorper est, non
+                    gravida
+                    eros. Nunc porttitor, enim ut sodales luctus, sapien est ultrices urna, et maximus dolor sem sit
+                    amet
+                    est. Cras eget accumsan eros, quis lobortis orci. Ut varius nisi a enim congue, non venenatis elit
+                    convallis. Donec elementum felis eros, ut scelerisque ante tincidunt nec. Etiam quis elementum
+                    massa.
+                </p>
+                <p>In hac habitasse platea dictumst. Suspendisse potenti. Phasellus nec libero eget magna eleifend
+                    euismod.
+                    Duis pellentesque et velit a finibus. Pellentesque quis mollis magna. In urna nunc, blandit vitae
+                    justo
+                    sit amet, auctor posuere risus. Phasellus sed velit a turpis scelerisque commodo. Cras congue ex sit
+                    amet ligula malesuada, lobortis luctus augue venenatis. Integer vitae arcu purus. In rhoncus
+                    tincidunt
+                    semper. Mauris efficitur consequat purus, non egestas lorem dignissim non. Sed viverra nunc augue.
+                    Sed
+                    non ultrices metus. Aenean diam ante, accumsan quis diam sed, pulvinar laoreet odio.</p></div>
+                <div class="blogpost">
+                    <h1>Post Title</h1>
+                    <img src="https://m.media-amazon.com/images/I/61wNAGbm-mL._AC_UF894,1000_QL80_.jpg"
+                        alt="Coming soon... ">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet, ex nec aliquam egestas,
+                        leo
+                        sapien efficitur lectus, quis consectetur lacus est sed urna. Phasellus at ullamcorper est, non
+                        gravida
+                        eros. Nunc porttitor, enim ut sodales luctus, sapien est ultrices urna, et maximus dolor sem sit
+                        amet
+                        est. Cras eget accumsan eros, quis lobortis orci. Ut varius nisi a enim congue, non venenatis
+                        elit
+                        convallis. Donec elementum felis eros, ut scelerisque ante tincidunt nec. Etiam quis elementum
+                        massa.
+                    </p>
+                    <p>In hac habitasse platea dictumst. Suspendisse potenti. Phasellus nec libero eget magna eleifend
+                        euismod.
+                        Duis pellentesque et velit a finibus. Pellentesque quis mollis magna. In urna nunc, blandit
+                        vitae justo
+                        sit amet, auctor posuere risus. Phasellus sed velit a turpis scelerisque commodo. Cras congue ex
+                        sit
+                        amet ligula malesuada, lobortis luctus augue venenatis. Integer vitae arcu purus. In rhoncus
+                        tincidunt
+                        semper. Mauris efficitur consequat purus, non egestas lorem dignissim non. Sed viverra nunc
+                        augue. Sed
+                        non ultrices metus. Aenean diam ante, accumsan quis diam sed, pulvinar laoreet odio.</p></div>
+                </div>
+
+            </div>
+</body>
 
 </html>
