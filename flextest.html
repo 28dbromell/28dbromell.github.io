@@ -15,19 +15,41 @@
             width: 80%;
         }
 
+        #linksbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #CCFFFF;
+            margin-bottom: 5px;
+        }
+
+        #linksbar a {
+            background-color: #00CCCC;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 5px;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        #linksbar a:hover {
+            background-color: #009999;
+        }
+
         #flexy {
             display: flex;
             justify-content: space-between;
         }
 
         #sidebar {
-width: 20%;
+            width: 20%;
+            background-color: #FFCCCC;
+
         }
 
         #main {
-width: 70%;
+            width: 70%;
+            background-color: #FFDDDD;
         }
-        
     </style>
 </head>
 
@@ -35,13 +57,38 @@ width: 70%;
     <div id="content">
         <h1>Banner</h1>
         <div id="linksbar">
-            <a href="#">Link</a> |
-            <a href="#">Link</a> |
+            <a href="#">Link</a>
+            <a href="#">Link</a>
             <a href="#">Link</a>
         </div>
         <div id="flexy">
             <div id="sidebar">Sidebar</div>
-            <div id="main">Main Content</div>
+            <div id="main">Main Content
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique at libero pharetra
+                    cursus.
+                    Ut sodales nulla justo, maximus rutrum lacus ornare ut. Nulla venenatis pharetra massa non
+                    porttitor.
+                    Nullam a bibendum sem. Nam fringilla augue aliquet arcu facilisis convallis. Morbi laoreet sapien
+                    lobortis blandit vestibulum. In non pulvinar sapien. Suspendisse vitae ante et enim rutrum
+                    dignissim.
+                    Nulla eleifend tortor nisl, ac convallis risus rutrum eget. Duis viverra, est ac tincidunt tempor,
+                    elit
+                    nisl eleifend est, in pharetra mauris urna vitae nisi. Proin orci justo, tincidunt pellentesque
+                    laoreet
+                    a, cursus vel sapien.</p>
+                <p>Integer pulvinar orci vel ante cursus, sed gravida velit suscipit. Etiam tristique facilisis augue eu
+                    venenatis. Aenean sagittis ante scelerisque felis aliquam, in condimentum justo condimentum. Donec
+                    varius condimentum ex at laoreet. Suspendisse pharetra erat nec mauris malesuada, eget malesuada
+                    nibh
+                    fringilla. Curabitur in erat nisi. Sed vitae ex in mauris tincidunt malesuada. Nullam facilisis
+                    metus
+                    vel odio tristique molestie. Pellentesque ornare aliquet erat sed vehicula. Sed tempor, velit vitae
+                    vulputate tempus, orci leo vehicula nulla, eget faucibus arcu tortor id arcu. Vestibulum venenatis,
+                    justo quis pretium venenatis, sem erat ornare ligula, id facilisis nisi felis vel lectus. Praesent
+                    eget
+                    placerat eros, in porta nunc.</p>
+            </div>
+
         </div>
     </div>
 </body>
