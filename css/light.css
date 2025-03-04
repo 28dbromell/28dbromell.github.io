@@ -1,0 +1,20 @@
+a,
+a:visited {
+    border: 2px solid #a09f9f;
+    color: #000;
+    padding: 4px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: goldenrod;
+}
+
+#buttons {
+    display: none;
+}
+
+#toolbar {
+    display: flex;
+}
