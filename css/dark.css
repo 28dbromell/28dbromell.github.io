@@ -22,3 +22,16 @@ body {
 #toolbar {
     display: flex;
 }
+h1 {
+    text-align: center; color: #FFFFFF;
+}
+#sidebar {
+    background-color: darkcyan;
+ color: #fff;
+}
+
+#main {
+    width: 100%;
+    background-color:darkcyan;
+ color: #fff;
+}

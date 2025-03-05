@@ -18,3 +18,16 @@ a:hover {
 #toolbar {
     display: flex;
 }
+h1 {
+    text-align: center; color: #000;
+}
+#sidebar {
+    background-color: darkcyan;
+
+}
+
+#main {
+    width: 100%;
+    background-color:darkcyan;
+ 
+}
