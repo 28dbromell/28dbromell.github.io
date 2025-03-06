@@ -24,7 +24,7 @@ null,
 {"id":22,"expanded":false,"name":"Warehouse District","order":9,"parentId":21,"scrollX":816,"scrollY":624,"quick":false},
 {"id":23,"expanded":false,"name":"Convenience Store","order":10,"parentId":22,"scrollX":1390.2857142857142,"scrollY":784.2857142857142,"quick":false},
 {"id":24,"expanded":false,"name":"School","order":11,"parentId":23,"scrollX":1404,"scrollY":799.7142857142857,"quick":false},
-{"id":25,"expanded":false,"name":"Mansion","order":14,"parentId":13,"scrollX":1404,"scrollY":1068.857142857143,"quick":false},
+{"id":25,"expanded":false,"name":"Mansion","order":14,"parentId":13,"scrollX":1404,"scrollY":1055.142857142857,"quick":false},
 {"id":26,"expanded":true,"name":"Shop","order":5,"parentId":19,"scrollX":1390.2857142857142,"scrollY":784.2857142857142,"quick":false},
 {"id":27,"expanded":true,"name":"Bank","order":6,"parentId":19,"scrollX":1390.2857142857142,"scrollY":784.2857142857142,"quick":false}
 ]
