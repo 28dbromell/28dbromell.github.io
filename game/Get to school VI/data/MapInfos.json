@@ -3,7 +3,7 @@ null,
 {"id":1,"expanded":true,"name":"Ohouse","order":3,"parentId":0,"scrollX":1390.2857142857142,"scrollY":784.2857142857142},
 {"id":2,"expanded":true,"name":"Ihouse","order":1,"parentId":0,"scrollX":973.1999999999999,"scrollY":549,"quick":false},
 {"id":3,"expanded":true,"name":"Path 1","order":7,"parentId":1,"scrollX":1390.2857142857142,"scrollY":784.2857142857142},
-{"id":4,"expanded":true,"name":"Bolderpass","order":15,"parentId":3,"scrollX":1460.5714285714284,"scrollY":784.2857142857142},
+{"id":4,"expanded":true,"name":"Bolderpass","order":15,"parentId":3,"scrollX":1460,"scrollY":640},
 {"id":5,"expanded":false,"name":"Mines","order":19,"parentId":4,"scrollX":1390.2857142857142,"scrollY":784.2857142857142,"quick":false},
 {"id":6,"expanded":false,"name":"Volcano","order":20,"parentId":5,"scrollX":1390.2857142857142,"scrollY":976.2857142857142,"quick":false},
 {"id":7,"expanded":true,"name":"Pman","order":2,"parentId":2,"scrollX":832,"scrollY":784,"quick":false},
@@ -27,5 +27,5 @@ null,
 {"id":25,"expanded":false,"name":"Mansion","order":9,"parentId":13,"scrollX":1404,"scrollY":1087.7142857142856,"quick":false},
 {"id":26,"expanded":true,"name":"Shop","order":6,"parentId":19,"scrollX":1390.2857142857142,"scrollY":784.2857142857142,"quick":false},
 {"id":27,"expanded":true,"name":"Bank","order":5,"parentId":19,"scrollX":1390.2857142857142,"scrollY":784.2857142857142,"quick":false},
-{"id":28,"expanded":true,"name":"Puzzle room","order":17,"parentId":4,"scrollX":1390.2857142857142,"scrollY":770.5714285714286,"quick":false}
+{"id":28,"expanded":true,"name":"Puzzle room","order":17,"parentId":4,"scrollX":1404,"scrollY":770.5714285714286,"quick":false}
 ]
